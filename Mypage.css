@@ -29,6 +29,7 @@
   justify-content: center;
   align-items: center;
   position: sticky;
+  
 }
 
 .taskbar a {
@@ -67,14 +68,14 @@
   left: 0;
   width: 100%;
   height: 40px;
-  background-color: #537FE7;
+  background-color: #3288df;
   color: #fff;
   display: flex;
   justify-content: left;
   align-items: center;
   position: static;
+  box-shadow: 10px 10px 10px #fff;
 }
-
 
 .Head a {
   text-decoration: none;
@@ -104,11 +105,27 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+  background-image: url('/Users/sriramkurnella/Documents/Mypage/Pictures/Blue.jpg');
 }
 
-.main_page img {
-  align-items: center;
-  height: 50px;
+.main_page h1{
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  top: 250.5px;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.main_page h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  top: 280px;
+  font-size: 70px;
 }
 
 .panel {
@@ -118,5 +135,39 @@
   border-radius: 5px;
   background-color: #C0EEF2;
   position: static;
+}
+
+.second_panel {
+  position: static;
+  top: 795px;
+  height: 550px;
+  background-color: #C0EEF2;
+}
+
+.second_panel h2 {
+  position : relative;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: #181823;
+  text-align: center;
+  font-size: 40px;
+  top : 100px;
+}
+.second_panel p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: #0568ca;
+  text-align: center;
+  padding : 50px 30px;
+  font-size: 20px;
+  position: relative;
+  top : 150px;
+}
+
+.highlight {
+  font-size: 25px;
+  font-family: 'Raleway' , sans-serif;
+  font-weight: 400;
+  color: #181823;
 }
 
