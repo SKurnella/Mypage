@@ -29,7 +29,6 @@
   justify-content: center;
   align-items: center;
   position: sticky;
-  
 }
 
 .taskbar a {
@@ -77,6 +76,7 @@
   box-shadow: 10px 10px 10px #fff;
 }
 
+
 .Head a {
   text-decoration: none;
   padding: 7.5px 20px;
@@ -102,11 +102,11 @@
   position: static;
   margin-left: 0;
   left: 0;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  background-image: url('Pictures/Blue.jpg');
+  background-image: url('/Users/sriramkurnella/Documents/Mypage/Pictures/Blue.jpg');
+  backdrop-filter: blur(10px);
+  background-size: cover;
 }
+
 
 .main_page h1{
   font-family: 'Raleway', sans-serif;
@@ -133,7 +133,7 @@
   left: 0;
   width: 100%;
   border-radius: 5px;
-  background-color: #C0EEF2;
+  background-color: #8fecf4;
   position: static;
 }
 
@@ -141,7 +141,7 @@
   position: static;
   top: 795px;
   height: 550px;
-  background-color: #C0EEF2;
+  background-color: #a8edf4;
 }
 
 .second_panel h2 {
@@ -156,12 +156,12 @@
 .second_panel p {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
-  color: #0568ca;
+  color: rgb(1, 21, 46);
   text-align: center;
   padding : 50px 30px;
-  font-size: 20px;
+  font-size: 22px;
   position: relative;
-  top : 150px;
+  top : 120px;
 }
 
 .highlight {
@@ -170,4 +170,118 @@
   font-weight: 400;
   color: #181823;
 }
+
+.third_panel {
+  position: static;
+  display : block;
+  top: 1345px;
+  height: 550px;
+  width: 100%;
+  margin: auto;
+  left: 0;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(1, 21, 46);
+  align-items: center;
+  background-image: url('/Users/sriramkurnella/Documents/Mypage/Pictures/logical-thinking.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.third_panel h2 {
+  position : relative;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: #a8edf4;
+  text-align: center;
+  font-size: 40px;
+  top : 100px;
+}
+
+.third_panel p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: rgb(190,232,251);
+  text-align: center;
+  padding : 50px 30px;
+  font-size: 22px;
+  position: relative;
+  top : 150px;
+  opacity: .5;
+}
+.form {
+  width: 400px;
+  position: relative;
+  top: -70px;
+  left: 870px;
+  box-shadow: 1px 1px 2px #000000;
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.form label {
+  font-family: 'Raleway', sans-serif;
+  padding: 5px 5px;
+}
+
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: rgb(1, 21, 46);
+  font-size: 20px;
+  background: #01172e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #000000;
+  text-decoration: none;
+}
+
+.bottom-container {
+  top: 1895px;
+  height: 550px;
+  left: 0;
+  text-align: center;
+  background-size: cover;
+  position: static;
+  background-image: url('/Users/sriramkurnella/Documents/Mypage/Pictures/contact.jpg');
+  position : static;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-container a {
+  top : 450px;
+  right: -400px;
+  font-size: 25px;
+  position: relative;
+  color: #000000;
+  opacity: .5;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  justify-content: right;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.bottom-container p {
+  top : 450px;
+  right: -400px;
+  position: relative;
+  color: #000000;
+  opacity: .7;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  justify-content: right;
+  align-items: center;
+  padding: 20px 20px;
+}
+
 
