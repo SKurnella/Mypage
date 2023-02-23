@@ -102,7 +102,7 @@
   position: static;
   margin-left: 0;
   left: 0;
-  background-image: url('/Users/sriramkurnella/Documents/Mypage/Pictures/Blue.jpg');
+  background-image: url('Pictures/Blue.jpg');
   backdrop-filter: blur(10px);
   background-size: cover;
 }
@@ -183,7 +183,7 @@
   justify-content: center;
   background-color: rgb(1, 21, 46);
   align-items: center;
-  background-image: url('/Users/sriramkurnella/Documents/Mypage/Pictures/logical-thinking.png');
+  background-image: url('Pictures/logical-thinking.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -250,7 +250,7 @@
   text-align: center;
   background-size: cover;
   position: static;
-  background-image: url('/Users/sriramkurnella/Documents/Mypage/Pictures/contact.jpg');
+  background-image: url('Pictures/contact.jpg');
   position : static;
   justify-content: center;
   align-items: center;
